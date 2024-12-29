@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-
 const input = fs.readFileSync('input.txt', 'utf-8');
 const rows = input.split('\n').map(line => line.trim()).slice(0, -1);
 const grid = rows.map(row => row.split(''));

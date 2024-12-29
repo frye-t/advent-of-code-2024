@@ -46,4 +46,3 @@ lines.forEach(line => {
 });
 
 console.log(safeCount);
-
